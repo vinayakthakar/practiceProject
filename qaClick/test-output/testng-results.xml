@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16314" started-at="2021-01-11T18:40:58 IST" finished-at="2021-01-11T18:41:14 IST">
+  <suite name="Default suite" duration-ms="14922" started-at="2021-01-16T15:37:03 IST" finished-at="2021-01-16T15:37:18 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16314" started-at="2021-01-11T18:40:58 IST" finished-at="2021-01-11T18:41:14 IST">
-      <class name="qaClick.openWebPage">
-        <test-method status="PASS" signature="openWeb()[pri:0, instance:qaClick.openWebPage@26dc9bd5]" name="openWeb" is-config="true" duration-ms="14138" started-at="2021-01-11T18:40:58 IST" finished-at="2021-01-11T18:41:12 IST">
+    <test name="Default test" duration-ms="14922" started-at="2021-01-16T15:37:03 IST" finished-at="2021-01-16T15:37:18 IST">
+      <class name="qaClick.rspracticeProject">
+        <test-method status="PASS" signature="validatePracticeProject()[pri:0, instance:qaClick.rspracticeProject@2a17b7b6]" name="validatePracticeProject" duration-ms="14873" started-at="2021-01-16T15:37:03 IST" finished-at="2021-01-16T15:37:18 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openWeb -->
-        <test-method status="PASS" signature="accessWebPage()[pri:0, instance:qaClick.openWebPage@26dc9bd5]" name="accessWebPage" duration-ms="1652" started-at="2021-01-11T18:41:12 IST" finished-at="2021-01-11T18:41:14 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- accessWebPage -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:qaClick.openWebPage@26dc9bd5]" name="closeDriver" is-config="true" duration-ms="395" started-at="2021-01-11T18:41:14 IST" finished-at="2021-01-11T18:41:14 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- qaClick.openWebPage -->
+        </test-method> <!-- validatePracticeProject -->
+      </class> <!-- qaClick.rspracticeProject -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

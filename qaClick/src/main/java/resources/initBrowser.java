@@ -27,6 +27,10 @@ public class initBrowser {
 		if(browser.equalsIgnoreCase("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Browser Drivers\\chromedriver.exe");
+			
+			/*FileInputStream drv = new FileInputStream("E:\\Selenium\\Browser Drivers\\chromedriver.exe");
+			prop.load(drv);
+			System.setProperty(prop.getProperty("chromeProperty"), "drv");*/
 			driver = new ChromeDriver();
 		}else if(browser.equalsIgnoreCase("firefox"))
 		{
