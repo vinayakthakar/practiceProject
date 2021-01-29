@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 181.343 s <<< FAILURE! - in TestSuite
+qaClick.openHomePage.accessWebPage  Time elapsed: 1.189 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://www.rahulshettyacademy.com">...</a> is not clickable at point (671, 74). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VINAYAK-LENOVO', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\VINAYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59802}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26e6ff3ad68e3ed39b92f5b55dc2ab4f
+	at qaClick.openHomePage.accessWebPage(openHomePage.java:35)
+
+qaClick.practiceProject1.validatePracticeProject  Time elapsed: 20.38 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://www.rahulshettyacademy.com">...</a> is not clickable at point (671, 74). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VINAYAK-LENOVO', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\VINAYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60552}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7533da3b6fb17f578b10a6600dc42af5
+	at qaClick.practiceProject1.validatePracticeProject(practiceProject1.java:31)
+

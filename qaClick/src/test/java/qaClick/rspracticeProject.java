@@ -57,6 +57,8 @@ public class rspracticeProject extends initBrowser{
 			System.out.println(link3);
 			
 		}
+		
+		driver.close();
 	}
 
 }

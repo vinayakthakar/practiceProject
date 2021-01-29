@@ -3,11 +3,22 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="qaClick.rspracticeProject">
+      <class name="qaClick.practiceProject2">
         <methods>
-          <include name="validatePracticeProject"/>
+          <include name="closeBrowser"/>
+          <include name="selectStaticDropdown"/>
+          <include name="validateConfirmation"/>
+          <include name="frameSwitch"/>
+          <include name="selectCheckBox"/>
+          <include name="mouseAction"/>
+          <include name="validateAlert"/>
+          <include name="validateSwitchTab"/>
+          <include name="validateSwitchWindow"/>
+          <include name="validateTable"/>
+          <include name="redioButton"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- qaClick.rspracticeProject -->
+      </class> <!-- qaClick.practiceProject2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

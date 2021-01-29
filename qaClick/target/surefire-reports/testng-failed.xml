@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="qaClick.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="qaClick.openHomePage">
+        <methods>
+          <include name="openWeb"/>
+          <include name="closeBrowser"/>
+          <include name="accessWebPage"/>
+        </methods>
+      </class> <!-- qaClick.openHomePage -->
+      <class name="qaClick.practiceProject1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="validatePracticeProject"/>
+        </methods>
+      </class> <!-- qaClick.practiceProject1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

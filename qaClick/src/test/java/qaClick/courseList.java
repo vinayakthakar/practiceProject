@@ -42,10 +42,10 @@ public class courseList extends initBrowser{
 		
 			
 		List<WebElement> list = driver.findElements(By.cssSelector("div[class^=course-listing-title]"));
-		//List element= driver.findElements(By.cssSelector("div[class^=course-listing-title]"));
+		
 		list.stream().map(s->s.getText()).forEach(s->System.out.println(s));
 		
-		
+		driver.close();
 		
 	}
 	

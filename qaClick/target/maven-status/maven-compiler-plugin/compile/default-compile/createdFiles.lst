@@ -1,0 +1,8 @@
+pageObjects\accessMenus.class
+pageObjects\rsNavigateMenus.class
+pageObjects\rsSignIn.class
+pageObjects\validatePracticeProject2.class
+resources\extentReporterNG.class
+resources\initBrowser.class
+pageObjects\rsHomeOptions.class
+pageObjects\addToCart.class
